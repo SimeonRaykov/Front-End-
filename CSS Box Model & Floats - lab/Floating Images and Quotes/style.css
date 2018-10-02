@@ -1,0 +1,51 @@
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1 + blockquote + h2 {
+
+    font-family: Georgia, sans-serif;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+img {
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background: rgb(238, 238, 238);
+    border: 1px solid #000;
+}
+
+.firstImg {
+    float: right;
+}
+
+.secondImg {
+    float: left;
+
+}
+
+#leftPart {
+    display: block;
+    float: left;
+
+}
+
+#rightPart {
+    float: right;
+    display:block;
+
+}
+.author{
+
+    display:inline;
+    margin-top:40px;
+    margin-right:20px;
+    padding: 20px 20px;
+
+}
