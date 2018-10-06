@@ -1,0 +1,58 @@
+html {
+    size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 1px solid black;
+    margin: 0 0;
+}
+
+.site-title {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#firstPic {
+    float: right;
+    border: 8px solid white;
+    outline: 3px solid black;
+    margin-left: 2rem;
+}
+
+#secondPic {
+    float: left;
+    border: 8px solid white;
+    outline: 3px solid black;
+    margin-right: 2rem;
+}
+
+blockquote {
+    font-style: italic;
+    color: #aaaaaa;
+    display: inline;
+    margin: 2rem 2rem;
+    float:right;
+}
+a {
+    float: right;
+}
+.column {
+    float: left;
+    width: 45%;
+}
+.column:nth-child(2){
+    border-left:2px solid grey;
+    margin-left: 2rem;
+    padding: 2rem;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+

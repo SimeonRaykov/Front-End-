@@ -1,0 +1,37 @@
+html {
+    background: #EEE;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+li{
+    margin:0.5em;
+}
+
+.row {
+    margin: 5px;
+    width: 33%;
+    flex: 0 0 20em;
+    padding: 0;
+}
+
+img {
+    border: 6px solid white;
+    outline: 4px solid black;
+    height: 25.5rem;
+    width: 18rem;
+}
+
+.smallerPic {
+    height: 12.5rem;
+    width: 15rem;
+}
+.biggerPic{
+    height:19em;
+    width:15em;
+}

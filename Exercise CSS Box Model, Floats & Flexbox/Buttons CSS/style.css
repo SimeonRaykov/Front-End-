@@ -1,0 +1,78 @@
+html {
+    background: rgb(238, 238, 238);
+    outline: none;
+    font-size: 60px;
+    margin: 1.5em;
+}
+
+#filledButton {
+    display: block;
+    padding: 1em 0 0 0;
+}
+
+#iconButton {
+    padding: 1em 0 0 0;
+}
+
+.normalButton {
+    background-color: #eeeeee;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 3px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-size: 19px;
+    padding: 8px 57px;
+    text-decoration: none;
+}
+
+.normalButton:hover {
+    color: green;
+    border: 3px solid green;
+}
+
+.filledButton {
+    background-color: rgb(51, 51, 51);
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 3px rgb(51, 51, 51);
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 8px 57px;
+    text-decoration: none;
+}
+
+.filledButton:hover {
+    background-color: green;
+}
+
+.iconButton {
+    background-color: rgb(51, 51, 51);
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 3px rgb(51, 51, 51);
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 8px 57px;
+    text-decoration: none;
+}
+
+.iconButton:hover {
+    background-color: green;
+}
+
+.fa-arrow-down {
+    position: relative;
+    left: -8px;
+}
+
+
+
