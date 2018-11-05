@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 10%
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.border {
+    margin-top: 0;
+    border-bottom: 2px solid #34B1C4;
+    width:11%;
+}
+
+.packs {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.packs article {
+    width: 29%;
+}
+
+body > section.packs > article:nth-child(1) > div.basic {
+    background: #333333;
+    color: white;
+    font-size: 23px;
+    border:1px solid #DDD;
+    padding: 8px 8px;
+}
+body > section.packs > article:nth-child(2) > div.type {
+    background: #1996A9;
+    color: white;
+    font-size: 23px;
+    padding: 8px 8px;
+}
+body > section.packs > article:nth-child(3) > div.type {
+    background: #333333;
+    color: white;
+    font-size: 23px;
+    padding: 8px 8px;
+}
+button{
+    background:    #008cba;
+    padding:       10px 25px;
+    border-radius: 5px;
+    color:         #ffffff;
+    display:       inline-block;
+    text-align:    center;
+    text-shadow:none;
+}
+
+body > section.packs > article:nth-child(1) > div.price{
+    border:1px dotted #DDD;
+    background: #F6F6F6;
+    font-size:28px;
+    padding: 6px 6px;
+}
+body > section.packs > article:nth-child(1) > div.description{
+    border:1px dotted #DDD;
+    padding: 6px 6px;
+}
+#first > div.DB{
+    border: 1px dotted #DDD;
+    padding: 6px 6px;
+}
+#first > div.Storage{
+    border:1px dotted #DDD;
+    padding: 6px 6px;
+}
+#first > div.Users{
+    border:1px dotted #DDD;
+    padding: 6px 6px;
+}
+#first > div:nth-child(7){
+    border: 1px solid #DDD;
+    padding: 23px 10px;
+}
+#second > div.price{
+    border: 1px solid #DDD;
+    background: #F6F6F6;
+    font-size:28px;
+    padding: 8px 8px;
+}
+#second > div.description{
+    border: 1px dotted #DDD;
+    padding: 6px 6px;
+}
+#second > div.DB{
+    border: 1px dotted #DDD;
+    padding: 6px 6px;
+}
+#second > div.Storage{
+    border: 1px dotted #DDD;
+    padding: 6px 6px;
+}
+#second > div.Users{
+    border: 1px dotted #DDD;
+    padding: 6px 6px;
+}
+#second > div:nth-child(7){
+    border:1px solid #DDD;
+    padding: 23px 10px;
+}
+
+#third > div.price{
+    font-size:28px;
+    border:1px solid #DDD;
+    background: #F6F6F6;
+    padding:8px 8px;
+}
+
+#third > div.description{
+    border: 1px dotted #DDD;
+    padding: 6px 6px;
+}
+#third > div.DB{
+    border: 1px dotted #DDD;
+    padding: 6px 6px;
+}
+#third > div.Storage{
+    border: 1px dotted #DDD;
+    padding: 6px 6px;
+}
+#third > div.Users{
+    border: 1px dotted #DDD;
+    padding: 6px 6px;
+}
+#third > div.description{
+    border: 1px dotted #DDD;
+    padding: 6px 6px;
+}
+#third > div:nth-child(7){
+    border: 1px solid #DDD;
+    padding: 23px 10px;
+}
+
+p{
+    color:#6E4651;
+}
+.description{
+    font-size:13px
+}
+
+
+

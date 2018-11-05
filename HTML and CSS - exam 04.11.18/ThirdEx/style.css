@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    display: flex;
+    width: auto;
+}
+
+.firstPart {
+    background: url(images/cover.jpg) no-repeat;
+    background-size: contain;
+    width: 650px;
+    height: 650px
+}
+
+.secondPart {
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+    width: 450px;
+    height: 170px;
+    background-color: #FAFAFA;
+}
+
+#softUni {
+    color: white;
+    font-weight: bold;
+}
+
+.welcoming {
+    color: white;
+    text-align: center;
+}
+
+.fas.fa-globe-americas, .fab.fa-github, .fab.fa-twitter {
+    color: white;
+}
+
+#input, #email, #password, #repeatPassword, #username {
+    opacity: 0.4;
+
+}
+
+#inputUser, #emailInput, #passwordInput, #repeatPasswordInput {
+    border-bottom: 1px solid gray;
+    margin: 8px;
+}
+
+#register {
+    background: #111111;
+    border-radius: 27px;
+    padding: 10px 15px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    text-shadow: none;
+    opacity: 1.0;
+    position: relative;
+    top: -350px;
+    left:700px;
+}
+
+.welcoming {
+    position: relative;
+    right: -90px;
+    bottom: -150px;
+    font-size: 25px;
+}
+
+.welcoming2 {
+    position: relative;
+    font-size: 25px;
+    bottom: -200px;
+    left: -150px;
+    color: white;
+}
+
+#dev {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 208px;
+   left:460px
+}
+
+.fas.fa-globe-americas{
+    position: absolute;
+    top:370px;
+    left:300px
+}
+.fab.fa-twitter{
+    position: absolute;
+    top:370px;
+    left:360px
+}.fab.fa-github{
+     position: absolute;
+     top:370px;
+     left:330px
+ }
+
+ #ninja{
+     position: absolute;
+     top: 320px;
+     left:900px;
+ }
+
